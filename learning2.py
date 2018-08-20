@@ -13,7 +13,7 @@ x=np.linspace(0,10,1000)
 y=np.sin(x)
 
 #create plot object
-plt.figure(figsize=(8,4))
+plt.figure(figsize=(8,4),dpi=300)
 
 #plot in the current object
 plt.plot(x,y,label='$sin(x)$', color='red',linewidth=2)
