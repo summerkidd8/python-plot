@@ -12,11 +12,12 @@ import matplotlib.pyplot as plt
 x=np.linspace(0,10,1000)
 y=np.sin(x)
 
+plt.xkcd()
 #create plot object
 plt.figure(figsize=(8,4),dpi=300)
 
 #plot in the current object
-plt.fill(x,y,label='$sin(x)$', color='red',linewidth=2,alpha=0.3)
+plt.plot(x,y,label='$sin(x)$', color='red',linewidth=2)
 
 plt.xlabel('Time(s)')
 plt.ylabel('speed')
