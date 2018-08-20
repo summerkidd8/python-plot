@@ -12,3 +12,6 @@ y=[0,1]
 plt.figure()
 plt.plot(x,y)
 plt.savefig('learning1.jpg')
+plt.xlabel('time(s)')
+plt.ylabel('speed(m/s)')
+plt.title('diagram')
