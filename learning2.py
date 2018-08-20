@@ -16,7 +16,7 @@ y=np.sin(x)
 plt.figure(figsize=(8,4),dpi=300)
 
 #plot in the current object
-plt.plot(x,y,label='$sin(x)$', color='red',linewidth=2)
+plt.fill(x,y,label='$sin(x)$', color='red',linewidth=2)
 
 plt.xlabel('Time(s)')
 plt.ylabel('speed')
