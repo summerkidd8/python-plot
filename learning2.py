@@ -24,5 +24,5 @@ plt.title('learning2')
 
 plt.ylim(-1.2,1.2)
 plt.legend()
-plt.show()
+plt.show
 plt.savefig('sinx.jpg')
